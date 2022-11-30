@@ -1,0 +1,35 @@
+
+
+.card {
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+}
+.content {
+
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+.card-header i {
+    color: #F55A5A;
+    font-size: 7px;
+}
+.card-location {
+  
+}
+.card-header a {
+    color: #918E9B;
+}
+.card-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-date {
+    font-weight: 700;
+}
+.card-description {
+
+}

@@ -1,0 +1,10 @@
+
+
+.lesson-proj {
+    width: 550px;
+    background-color: #fff;
+}
+.lesson-proj *:not(i){
+    font-family: "Poppins", sans-serif;
+}
+

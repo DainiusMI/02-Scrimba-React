@@ -1,0 +1,16 @@
+
+.navbar-solo {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    background-color: #F55A5A;
+    color: #fff;
+    height: 55px;
+}
+.nav-logo {
+    width: 24px;
+    height: 24px;
+}
+

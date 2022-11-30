@@ -1,0 +1,64 @@
+
+
+.main {
+    display: flex;
+    gap: 18px;
+    padding: 37px;
+
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    
+}
+
+.card {
+    min-width: 190px;
+    
+    font-size: 12px;
+    font-weight: 300;
+    position: relative;
+}
+.badge {
+    width: 61px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: .2rem;
+    text-align: center;
+    
+    font-size: 11px;
+    font-weight: 400;
+
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+.card-avatar {
+    width: 100%;
+    height: 235px;
+    border-radius: .5rem;
+}
+.info-row {
+    display: flex;
+    
+    gap: .2rem;
+
+}
+.info-row i {
+    color: #FE395C;
+    font-size: 14px;
+
+}
+.location {
+    margin-left: .5rem;
+    position: relative;
+}
+.location::before {
+    content: "\2022";
+    position: absolute;
+    top: 0;
+    left: -.5rem;
+    
+}
+
+.cost {
+
+}
