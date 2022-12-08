@@ -1,9 +1,26 @@
 
 
-.card {
+.solo-card {
     background-color: #fff;
     font-size: 10px;
     font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem 2rem;
+    position: relative;
+}
+.solo-card:not(:last-child)::after {
+    content: "";
+    width: calc(100% - 4rem);
+    height: .1rem;
+    background-color: #918E9B;
+    opacity: .2;
+    position: absolute;
+    bottom: 0;
+    left: calc(100%- (100% - 4rem) / 2);
+
 }
 .content {
 
@@ -18,18 +35,28 @@
     font-size: 7px;
 }
 .card-location {
-  
+  text-transform: uppercase;
 }
 .card-header a {
     color: #918E9B;
 }
-.card-title {
+.card-img {
+    min-width: 125px;
+    height: 168px;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+.solo-card-title {
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 .card-date {
     font-weight: 700;
+    margin-bottom: .5rem;
 }
 .card-description {
-
+    width: 53ch;
+    line-height: 15px;
 }

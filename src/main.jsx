@@ -10,9 +10,9 @@ class Main extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
-            lesson: "btn",
-            solo: "btn active",
-            displayProj: "solo"
+            lesson: "btn active",
+            solo: "btn",
+            displayProj: "lesson"
         }
         this.handleDisplay = this.handleDisplay.bind(this)
     }

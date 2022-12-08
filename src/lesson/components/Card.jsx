@@ -4,7 +4,7 @@ import dataArr from "../data"
 //import avatar from "../../assets/katie-zaferes.png"
 import "./card.css"
 
-//import img from "../../../public/images"
+//import img from "../../assets/images"
 
 
 export default function Card(props) {
@@ -18,7 +18,7 @@ export default function Card(props) {
                     null
                 } 
             {}
-            <img className="card-avatar" src={`../../../public/images/${props.img}`} alt={`img-${props.id}`} />
+            <img className="card-avatar" src={`./images/${props.img}`} alt={`img-${props.id}`} />
             <div className="info-row">
                 <i className="fa-sharp fa-solid fa-star"></i>
                 <p className="rating">{props.rating}</p>
